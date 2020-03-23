@@ -1,0 +1,164 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+body, html {
+  padding: 0 3px 3px 3px;
+  background-color: transparent;
+  flex-direction: column;
+  font-family: Verdana, sans-serif;
+  font-size: 11pt;
+  text-align: center;
+}
+
+header{
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  border:none;
+}
+
+main{
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+article{
+  flex: 2;
+}
+aside{
+  flex: 1;
+}
+
+/* nav{
+  float: left;
+  margin-top: 40px;
+} */
+
+nav > a{
+  color: red !important;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+footer>a{
+  color: white;
+}
+
+#beatleLogo{
+  width: 20%;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.content{
+  padding: 10px 0 0 0;
+  box-shadow: 0px -10px 25px 0px lightgrey;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.justify-cont-end{
+  justify-content: flex-end;
+}
+
+.justify-cont-around{
+  justify-content: space-around;
+}
+
+.nav-op{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: -5px 0px 10px 0px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+
+.ul-menu{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.ul-menu>li{
+  list-style: none;
+}
+
+.ul-menu>li>a{
+  text-decoration: none;
+  color: white;
+  padding: 0 40px 0 0;
+}
+
+.ul-menu>li>a:hover{
+  font-size: 21px;
+  color: dimgray;
+}
+
+.margin-sm{
+  margin: 0 10px 15px;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.home-text{
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.album-info{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.w-250{
+  width: 250px;
+}
+
+.w-300{
+  width: 300px;
+}
+
+.album-img{
+  padding: 0 0 0 10px;
+}
+
+.text-info{
+  color: #1287f6;
+}
+
+.font-20{
+  font-size: 20px;
+}
+
+.font-22{
+  font-size: 22px;
+}
+
+.font-28{
+  font-size: 28px;
+}
